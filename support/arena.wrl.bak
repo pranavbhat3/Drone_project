@@ -1082,7 +1082,7 @@ DEF LandingSpot_tmp Transform {
   }
 }
 DEF LandingSpot Transform {
-  translation 3.16 -0.02 1.89
+  translation 3.17 -0.02 0.85
   rotation 0 0 0 0
   children Shape {
     appearance Appearance {
