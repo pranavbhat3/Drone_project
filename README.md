@@ -4,8 +4,12 @@ This repo contains the project files for a mini drone project meant for the parr
 - [x] Dynamic path planning and correction. Can handle unspecified angles.
     - [x] Turning 
     - [x] Forward motion wrt to the direction of it's nose
-- [ ] Landing 
+- [x] Landing 
     - [x] Stabilization
     - [x] Search for Landing
-    - [ ] Detect Landing
+    - [x] Detect Landing
 - [x] Fail safe to land if it goes off path
+
+> [!NOTE]
+> Landing only works with sufficient space between landing circle and end of track. Otherwise it will backtrack the path till time runs out.
+
